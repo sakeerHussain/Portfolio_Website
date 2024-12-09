@@ -60,22 +60,29 @@ export default function Intro() {
       </div>
 
       <motion.h1
-        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
+        className="mb-2 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
         Hello, I'm{" "}
         <span className="font-bold text-blue-900 relative">
-          Sakeer Hussain. 
+          Sakeer Hussain.
         </span>
+      </motion.h1>
+
+      <motion.p
+        className="mb-10 mt-0 px-4 text-lg font-medium !leading-[1.5] sm:text-2xl"
+        initial={{ opacity: 0, y: 100 }}
+        animate={{ opacity: 1, y: 0 }}
+      >
         <span className="font-bold">
           <Typewriter
             options={{
               strings: [
                 'A passionate <span style="color:#002080;">Full Stack Developer</span>,',
                 "with expertise in the MERN Stack.",
-                "With strong knowledge in",
-                "JavaScript, React, Node.js and Mongo DB",
+                "with strong knowledge in",
+                "JavaScript, React, Node.js and MongoDB",
               ],
               autoStart: true,
               loop: true,
@@ -84,7 +91,7 @@ export default function Intro() {
             }}
           />
         </span>
-      </motion.h1>
+      </motion.p>
 
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
