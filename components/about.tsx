@@ -19,7 +19,7 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After working as a robotics instructor{" "}
+        After working as a{" "}
         <span className="font-medium">robotics instructor</span>, I discovered
         my true passion for programming and decided to make a career shift. I
         enrolled in a coding bootcamp and learned{" "}
