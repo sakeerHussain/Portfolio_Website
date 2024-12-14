@@ -92,16 +92,15 @@ export const skillsData = [
   { name: "CSS", img: "/skills/css.svg" },
   { name: "JavaScript", img: "/skills/js.svg" },
   { name: "TypeScript", img: "/skills/ts.svg" },
-  { name: "React", img: "/skills/React-icon.png" },
+  { name: "React", img: "/skills/react.svg" },
   { name: "Next.js", img: "/skills/Next-icon.svg" },
   { name: "Node.js", img: "/skills/nodejs.svg" },
   { name: "Tailwind", img: "/skills/Tailwind-icon.svg" },
-
   { name: "Redux", img: "/skills/redux.svg" },
   { name: "Express", img: "/skills/express.svg" },
   { name: "MongoDB", img: "/skills/mongodb.svg" },
   { name: "My Sql", img: "/skills/mysql.svg" },
-  { name: "Git", img: "/skills/github.png" },
+  { name: "Git", img: "/skills/github.svg" },
 ] as const;
 
 
