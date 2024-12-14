@@ -22,27 +22,23 @@ export default function About() {
         After working as a{" "}
         <span className="font-medium">robotics instructor</span>, I discovered
         my true passion for programming and decided to make a career shift. I
-        enrolled in a coding bootcamp and learned{" "}
+        enrolled in a coding bootcamp where I learned{" "}
         <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. There's a unique thrill in breaking down a
-        complex issue and, after much thought and effort, finally arriving at
-        the perfect solution. My core stack is{" "}
-        <span className="font-medium">
-          React, Node.js, Express and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Next.js. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
+        <span className="italic">My favorite part of programming{" "}</span>
+        is solving complex problems—the thrill of breaking down challenges and
+        finding elegant solutions keeps me motivated. My core stack includes{" "}
+        <span className="font-medium">React, Node.js, Express and MongoDB,{" "}</span>
+        and I am also familiar with TypeScript and Next.js. I am always eager to
+        learn new technologies and apply them to create impactful solutions. Currently, I am seeking a{" "}
         <span className="font-medium">full-time position</span> as a software
         developer.
       </p>
 
       <p>
         <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and preading. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. 
+        video games, watching movies, and reading. My curiosity extends beyond tech__{" "}
+         I am currently exploring{" "}
+        <span className="font-medium">history and philosophy</span>.
       </p>
     </motion.section>
   );

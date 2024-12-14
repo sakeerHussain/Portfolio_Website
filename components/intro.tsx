@@ -79,7 +79,7 @@ export default function Intro() {
           <Typewriter
             options={{
               strings: [
-                'A passionate <span style="color:#002080;">Full Stack Developer</span>,',
+                'A passionate <span style="color:#002080;">Full Stack Developer,</span>',
                 "with expertise in the MERN Stack.",
                 "with strong knowledge in",
                 "JavaScript, React, Node.js and MongoDB",

@@ -1,6 +1,8 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
+import { FaLaptopCode } from "react-icons/fa";
+
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
@@ -35,29 +37,30 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Web Developer Bootcamp",
+    location: " Stack Up Learning Hub, Trivandrum, India",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
+      "During this intensive 8-month program, I gained in-depth knowledge of full-stack web development. The curriculum emphasized practical, hands-on learning, covering core technologies like React for building interactive UIs, Node.js and Express for server-side development, and MongoDB for managing databases.",
+    icon: React.createElement(FaLaptopCode),
+    date: "",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Robotics Instructor",
+    location: "Tiswara Learn Tech Pvt Ltd, Kollam, India",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Worked as a robotics instructor, teaching students about robotics, programming, and problem-solving. This role deepened my interest in technology and programming, leading to my transition into full-stack web development.",
+
     icon: React.createElement(CgWorkAlt),
     date: "2019 - 2021",
   },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
-  },
+  // {
+  //   title: "Full-Stack Developer",
+  //   location: "Houston, TX",
+  //   description:
+  //     "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+  //   icon: React.createElement(FaReact),
+  //   date: "2021 - present",
+  // },
 ] as const;
 
 export const projectsData = [
@@ -85,23 +88,20 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  { name: "HTML", img: "/skills/html.svg" },
+  { name: "CSS", img: "/skills/css.svg" },
+  { name: "JavaScript", img: "/skills/js.svg" },
+  { name: "TypeScript", img: "/skills/ts.svg" },
+  { name: "React", img: "/skills/React-icon.png" },
+  { name: "Next.js", img: "/skills/Next-icon.svg" },
+  { name: "Node.js", img: "/skills/nodejs.svg" },
+  { name: "Tailwind", img: "/skills/Tailwind-icon.svg" },
+
+  { name: "Redux", img: "/skills/redux.svg" },
+  { name: "Express", img: "/skills/express.svg" },
+  { name: "MongoDB", img: "/skills/mongodb.svg" },
+  { name: "My Sql", img: "/skills/mysql.svg" },
+  { name: "Git", img: "/skills/github.png" },
 ] as const;
+
+
