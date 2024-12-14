@@ -42,7 +42,7 @@ export const experiencesData = [
     description:
       "During this intensive 8-month program, I gained in-depth knowledge of full-stack web development. The curriculum emphasized practical, hands-on learning, covering core technologies like React for building interactive UIs, Node.js and Express for server-side development, and MongoDB for managing databases.",
     icon: React.createElement(FaLaptopCode),
-    date: "",
+    date: "2023 - 2024",
   },
   {
     title: "Robotics Instructor",
@@ -51,7 +51,7 @@ export const experiencesData = [
       "Worked as a robotics instructor, teaching students about robotics, programming, and problem-solving. This role deepened my interest in technology and programming, leading to my transition into full-stack web development.",
 
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2022 - 2023",
   },
   // {
   //   title: "Full-Stack Developer",
