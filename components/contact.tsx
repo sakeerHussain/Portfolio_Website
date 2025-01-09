@@ -55,14 +55,25 @@ export default function Contact() {
           toast.success("Email sent successfully!");
         }}
       >
-        <input
-          className="h-14 px-4 rounded-lg borderBlack dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
-          name="senderEmail"
-          type="email"
-          required
-          maxLength={500}
-          placeholder="Your email"
-        />
+          <div className="flex flex-col sm:flex-row gap-3">
+    <input
+      className="h-14 px-4 flex-1 rounded-lg borderBlack dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
+      name="senderName"
+      type="text"
+      required
+      maxLength={500}
+      placeholder="Your name"
+    />
+
+    <input
+      className="h-14 px-4 flex-1 rounded-lg borderBlack dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
+      name="senderEmail"
+      type="email"
+      required
+      maxLength={500}
+      placeholder="Your email"
+    />
+  </div>
         <textarea
           className="h-52 my-3 rounded-lg borderBlack p-4 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
           name="message"

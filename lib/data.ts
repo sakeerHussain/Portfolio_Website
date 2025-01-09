@@ -1,9 +1,7 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { FaLaptopCode } from "react-icons/fa";
 
-import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
@@ -65,19 +63,30 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Task Management App",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "A full-stack task management application built to streamline project planning and team collaboration. Users can create, assign, and track tasks in real-time. The app also allows teams to manage deadlines, progress, and subtasks efficiently.",
+    tags: ["React", "Next.js", "MongoDB", "Tailwind CSS", "Node.js", "Express"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "StoreIt",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+    "A full-stack storage management application designed to help users manage their files and folders efficiently. It supports features like file uploads, real-time synchronization, and easy categorization, ensuring seamless access and organization of stored data.",
+  tags: ["React", "Next.js", "MongoDB", "Tailwind CSS", "Node.js", "Express"],
     imageUrl: rmtdevImg,
   },
+
+  {
+    title: "Employee Management App",
+    description:
+      "A full-stack web application for managing employees in an organization. The app allows HR teams to add, edit, and remove employee details, track their performance, and manage attendance. It features role-based access, employee search, and reporting functionalities.",
+    tags: ["React", "Next.js", "MongoDB", "Tailwind CSS", "Node.js", "Express"],
+    imageUrl: wordanalyticsImg,
+  },
+
+
+
   {
     title: "Word Analytics",
     description:

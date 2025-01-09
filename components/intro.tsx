@@ -10,7 +10,8 @@ import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 import Typewriter from "typewriter-effect";
-import profile from "@/public/Profile.jpg";
+// import profile from "@/public/Profile.jpg";
+import gallery from "@/public/gallery.png";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -33,8 +34,8 @@ export default function Intro() {
             }}
           >
             <Image
-              src={profile}
-              alt="Sakeer portrait"
+              src={gallery}
+              alt="Profile picture"
               width="192"
               height="192"
               quality="95"
@@ -64,7 +65,7 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        Hello, I'm{" "}
+        Hi! I'm{" "}
         <span className="font-bold text-blue-900 relative">
           Sakeer Hussain.
         </span>
